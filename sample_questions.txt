@@ -1,0 +1,17 @@
+write a 10 word coherent sentence where each word has exactly 1 letter more than its previous word starting with first word having one letter and so on till tenth word having 10 letters
+
+
+You are faced with three gods, A, B, and C. Their names are True, False, and Random, but you do not know which is which. True always tells the truth. False always lies. Random sometimes tells the truth and sometimes lies—how Random behaves is completely unpredictable. You have to determine the identities of A, B, and C by asking three yes-no questions. Each question must be addressed to one god only, but you are allowed to ask different gods different questions. The gods understand English, but will answer all questions in their own language, where the words for "yes" and "no" are "ja" and "da," in some order. You do not know which word means "yes" and which means "no."
+
+
+
+Three boxes: one contains gold, the others are empty. Box 1 says, "Box 2 is empty." Box 2 says, "Box 1 is lying." Box 3 says, "Gold is in Box 3." Only one statement is true. Which box has the gold?
+
+
+
+Tesla stock is currently trading at 229.81. Today is sept 12, 2024 and US market has closed. what is the option price going to be for option expiring on 11/15/24 , if the imp vol is 60.57 and strike 220 , give me both call and put option prices.first attempt pass
+
+
+
+
+in the context of planetary boundary layer meteorology and similarity theory, consider the vertical virtual turbulent heat flux from a Reynolds covariance perspective. Express this virtual flux in terms of the bulk aerodynamics sensible and latent heat fluxes, showing all the math in the Reynolds decomposition. Explain why the latent heat flux only has a small effect on the total virtual heat flux in the expression of the Monin-Obukhov length.

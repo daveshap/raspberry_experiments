@@ -1,0 +1,15 @@
+Hi, I am working on a data science project, and I must synthesize a realistic query based on the following values
+
+- Main Topic: {main_topic}
+- Subtopic: {subtopic}
+- Difficulty: {difficulty}
+- Problem Type: {problem_type}
+- Conceptual Connector: {conceptual_connector}
+
+The query must meet these three criteria
+
+1. Is answerable without external resources
+2. Requires multiple reasoning steps
+3. Is suitable for {difficulty} level expertise
+
+The query can be as long as is needed to provide adequate context. It must also look like a realistic query from a human. Please output JUST the query.

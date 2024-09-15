@@ -1,0 +1,21 @@
+Hi, I am working on a research project and I need to synthesize good test questions. However, part of this is that I need to generate a good subtopic, given some context. 
+
+
+Given the following parameters:
+Main Topic: {main_topic}
+Difficulty Level: {difficulty}
+Problem Type: {problem_type}
+Conceptual Connector: {conceptual_connector}
+
+Generate a specific, challenging subtopic or secondary topic that:
+1. Is answerable without external resources
+2. Requires multiple reasoning steps
+3. Is suitable for {difficulty} level expertise
+
+The subtopic should be a narrow, specialized area within or related to {main_topic}, potentially incorporating aspects of {problem_type}. It should be complex enough to warrant {conceptual_connector} in its exploration.
+
+Consider cutting-edge research, interdisciplinary connections, or theoretical extensions of current knowledge in {main_topic}. The subtopic should be specific enough to form the basis of a highly challenging question that would require deep expertise and complex reasoning to answer.
+
+Provide the subtopic as a brief phrase or sentence, no more than 15 words long. Do not include any other replies, as this is a data synthesis step. 
+
+Subtopic:

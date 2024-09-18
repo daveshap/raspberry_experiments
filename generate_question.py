@@ -1,6 +1,10 @@
 import anthropic
 import random
 
+
+random.seed()
+
+
 def read_list_from_file(filename):
     with open(filename, 'r') as file:
         return [line.strip() for line in file if line.strip()]

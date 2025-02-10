@@ -1,0 +1,9 @@
+In Luxembourg's Ministry of Transport, four officials (A, B, C, and D) must be assigned to different floors (1-4) of their building for a motorcycle safety inspection program. The following conditions must be met:
+
+1. Official A must be exactly two floors above Official B
+2. Official C cannot be on the highest or lowest floor
+3. Official D must be on an even-numbered floor
+4. The floor number of Official C must be equal to the absolute difference between A's and D's floor numbers
+5. B cannot be on Floor 1
+
+Determine the unique valid arrangement of officials across the four floors.

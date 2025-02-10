@@ -1,0 +1,5 @@
+Consider the following sequence derived from the words "retrieval", "assessment", "snowboard", "reception", "discovery", and "efficient":
+
+8, 10, 9, 9, 9, 9, [?, ?]
+
+The sequence is based on a specific property of these words. Identify the pattern and determine the next two numbers in the sequence. For additional context: The word "keyboard" would yield 8, while "mountain" would yield 8 as well.

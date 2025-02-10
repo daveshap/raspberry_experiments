@@ -1,0 +1,11 @@
+A detective is investigating a household break-in with five suspects. The detective has gathered these facts:
+- The point of penetration was either the garage door or basement window
+- The defendant left written instructions for an accomplice, unfortunately dropping them at the scene
+- Each suspect was interviewed on a different day, Monday through Friday
+- The suspect interviewed on Wednesday lives in an apartment
+- The person who used the garage door was interviewed before the person who lives in a house
+- The defendant was interviewed on Friday
+- If the entry point was the basement window, then the suspect interviewed on Tuesday is innocent
+- If the suspect interviewed on Monday lives in a house, then the garage door was used
+
+Using only these clues, determine the entry point and identify the defendant from the five suspects.

@@ -1,0 +1,12 @@
+A Halloween candy distributor has developed a unique security system for their warehouse. The system works as follows:
+
+Given a sequence of N numbers representing security codes, each code must be "haunted" by following these rules:
+1. A code is considered "haunted" if it's exactly equal to the sum of any two different codes that come after it in the sequence
+2. The first code in the sequence must always be haunted
+3. No code can be used twice to haunt another code
+
+Write a pseudocode algorithm that determines if a given sequence is valid according to these rules. For example:
+[10, 4, 6, 3, 1] is valid because:
+- 10 is haunted (4 + 6 = 10)
+- Other numbers don't need to be haunted
+[12, 5, 3, 2, 1] is invalid because 12 cannot be haunted by any two subsequent numbers.

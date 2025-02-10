@@ -1,0 +1,7 @@
+A specialist environmental scientist in Newcastle is studying air pollution particles, comparing them with similar data from Springfield. Given that:
+- The average PM2.5 particle concentration in Newcastle is 12 µg/m³
+- The wind speed averages 15 mph from Newcastle toward Springfield
+- The distance between cities is 200 miles
+- The particle decay rate is 2% per hour in normal conditions
+
+Calculate how long it would take for these particles to reach Springfield, and what the final concentration would be. Then explain whether this level would be considered desirable from a sustainability perspective, citing typical WHO air quality guidelines in your reasoning. Consider both atmospheric dispersion and decay rates in your calculations.

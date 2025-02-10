@@ -1,0 +1,8 @@
+Complete this complex analogy chain:
+
+Consultant is to Specialist as Generalist is to Expert
+Architect is to Blueprint as Engineer is to ___
+___ is to Implementation as Theory is to Practice
+___ is to Aerospace as Software is to Computing
+
+Explain the logical relationship pattern that connects all three analogies, and fill in the blanks using words that maintain consistent relationship patterns across all pairs.

@@ -1,0 +1,8 @@
+Using the five context words provided (represent, pichunter, portfolio, conventions, accommodation), identify the word that satisfies all these conditions:
+1. It shares a prefix with one of the words
+2. It can function as both a noun and a verb
+3. When used as a verb, it means something similar to one of the other context words
+4. When used as a noun, it describes a type of gathering like another context word
+5. It must be exactly 8 letters long
+
+Explain your reasoning for each step of the solution.

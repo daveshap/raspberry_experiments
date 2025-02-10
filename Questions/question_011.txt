@@ -1,0 +1,4 @@
+A scientist is structured reporting observations from three replication studies. In the first study, 80% of 150 observations were successful. The second study showed a 15% decrease in success rate from the first study, while the third study showed a 10% increase from the second study's rate. If each study had exactly 150 observations, calculate:
+1. The total number of successful observations across all studies
+2. The average success rate across all studies
+Express your final answers as whole numbers.

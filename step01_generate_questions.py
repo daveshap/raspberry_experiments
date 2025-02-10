@@ -3,6 +3,7 @@ import json
 import random
 import os
 from pathlib import Path
+import glob
 
 # Set up paths
 base_path = Path('.')
@@ -27,6 +28,23 @@ categories = []
 with open(categories_path, 'r') as f:
     for line in f:
         categories.append(json.loads(line)['category'])
+
+def get_next_file_number():
+    """Find the next available file number by checking existing files"""
+    existing_files = glob.glob(str(output_dir / 'question_*.txt'))
+    if not existing_files:
+        return 1
+    
+    numbers = []
+    for f in existing_files:
+        try:
+            # Extract number from filename (question_XXX.txt)
+            num = int(Path(f).stem.split('_')[1])
+            numbers.append(num)
+        except (IndexError, ValueError):
+            continue
+    
+    return max(numbers) + 1 if numbers else 1
 
 def extract_solution(response_text):
     """Extract text between <Solution> tags"""
@@ -72,9 +90,11 @@ def main():
         api_key = file.read().strip()
     client = anthropic.Anthropic(api_key=api_key)
 
+    # Get starting file number
+    current_number = get_next_file_number()
     
     # Process each category
-    for i, category in enumerate(categories):
+    for category in categories:
         # Select 5-10 random words
         num_words = random.randint(5, 10)
         random_words = random.sample(word_list, num_words)
@@ -86,14 +106,17 @@ def main():
         solution = extract_solution(response)
         
         if solution:
-            # Save to file
-            output_file = output_dir / f'question_{i+1}.txt'
+            # Create zero-padded filename
+            filename = f'question_{current_number:03d}.txt'
+            output_file = output_dir / filename
+            
             with open(output_file, 'w') as f:
                 f.write(solution)
             
-            print(f"Generated question {i+1} for category: {category[:50]}...")
+            print(f"Generated question {filename} for category: {category[:50]}...")
+            current_number += 1
         else:
-            print(f"Failed to generate question for category {i+1}")
+            print(f"Failed to generate question for category: {category[:50]}")
 
 if __name__ == "__main__":
     main()

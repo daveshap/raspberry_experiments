@@ -1,0 +1,9 @@
+A train service connects Burlington and Southampton with the following schedule structure:
+- Morning departures maintain equilibrium by alternating between express (2 hours) and local (3 hours) services
+- The first departure is at 6:00 AM
+- There are exactly 4 departures before noon
+- The radiation safety inspection requires a 90-minute gap between any two departures
+- The directory of services shows that exactly two express trains run before noon
+- The frontpage schedule indicates the last morning train must arrive before 11:30 AM
+
+Determine the complete morning departure schedule from Burlington to Southampton.

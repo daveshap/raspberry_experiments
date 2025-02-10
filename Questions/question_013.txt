@@ -1,0 +1,10 @@
+Consider a distributed system with N nodes arranged in a circular configuration. Each node contains a unique number from 1 to N, but the numbers are randomly distributed. Every node can only communicate with its immediate neighbors (left and right), and each node can only store three values at any time: its own number and up to two temporary values.
+
+Design a step-by-step algorithm that allows all nodes to determine if the number N/2 (rounded down) exists in the system, with the following constraints:
+1. Nodes cannot know their position in the circle
+2. Nodes can only pass messages to immediate neighbors
+3. The algorithm must terminate with all nodes knowing the answer
+4. Each message can only contain a single number
+5. The algorithm must work regardless of which node initiates the process
+
+Explain your solution in pseudocode and describe why it will work.

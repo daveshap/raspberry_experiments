@@ -1,0 +1,5 @@
+Consider this chain of analogies where each pair forms a specific type of relationship, and each subsequent relationship mirrors the previous one in structure:
+
+Scientists : Conclusions :: Collectors : Artifacts :: Christians : Beliefs
+
+Identify the precise nature of the relationship pattern that connects these pairs, and then generate two new pairs that follow the exact same relationship structure, using any domain of knowledge. Explain why your chosen pairs fit the pattern.

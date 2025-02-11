@@ -1,0 +1,10 @@
+A hospital's infection control department is reviewing four professional cases that occurred on different days (Monday through Thursday). For each case, there was a specific infection type (bacterial, viral, fungal, or prion), and a distinct metabolism-related symptom (fever, fatigue, loss of appetite, or nausea). Given these conditions:
+
+1. The bacterial case was handled two days after the case with fever symptoms.
+2. The Thursday case involved neither prion infection nor nausea.
+3. The fungal infection case immediately followed the case with fatigue symptoms.
+4. The case with loss of appetite occurred on Monday.
+5. The viral infection case was not associated with fever symptoms.
+6. The case with nausea occurred on Wednesday.
+
+Determine the complete and correct reconstruction of each day's case, including the infection type and corresponding symptom.

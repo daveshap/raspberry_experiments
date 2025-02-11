@@ -1,0 +1,9 @@
+A museum is planning four astronomy exhibitions over four consecutive months (January to April). The exhibitions are: "Solar System Wonders", "Deep Space Objects", "History of Telescopes", and "Cosmic Phenomena". The administrator must assign one curator (Amy, Bob, Carol, and David) to each exhibition following these rules:
+
+1. Amy specializes in historical instruments and cannot work in January
+2. Bob must manage an exhibition that occurs in a month adjacent to Carol's exhibition
+3. David is allergic to the cleaning solutions used for telescope lenses and cannot manage "History of Telescopes"
+4. The "Deep Space Objects" exhibition must occur before "Solar System Wonders"
+5. Carol has a conference in April and cannot work that month
+
+Determine the complete schedule of who manages which exhibition in which month.

@@ -1,0 +1,9 @@
+Create a logical chain of words where each subsequent word must share a semantic relationship with both the previous word AND maintain a different but valid relationship with the original context word "change." Start with "changelog" and end with "professional," using exactly five words total. Each relationship must be explicitly explained.
+
+For example (this is just to illustrate the concept, not the solution):
+changelog → logbook (sharing 'log' component) → bookkeeper (sharing 'book' component)
+
+The relationships with "change" must be different for each word:
+- changelog (recording changes)
+- logbook (documenting changes)
+- bookkeeper (managing financial changes)

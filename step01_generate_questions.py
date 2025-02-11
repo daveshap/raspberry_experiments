@@ -16,16 +16,16 @@ output_dir = base_path / 'Questions'
 output_dir.mkdir(exist_ok=True)
 
 # Read system prompt
-with open(system_prompt_path, 'r') as f:
+with open(system_prompt_path, 'r', encoding='utf-8') as f:
     system_prompt = f.read()
 
 # Read word list
-with open(words_path, 'r') as f:
+with open(words_path, 'r', encoding='utf-8') as f:
     word_list = [word.strip() for word in f.readlines() if word.strip()]
 
 # Read categories
 categories = []
-with open(categories_path, 'r') as f:
+with open(categories_path, 'r', encoding='utf-8') as f:
     for line in f:
         categories.append(json.loads(line)['category'])
 
@@ -86,7 +86,7 @@ def query_claude(client, category, random_words):
 
 def main():
     # Initialize Anthropic client
-    with open('key.txt', 'r') as file:
+    with open('key.txt', 'r', encoding='utf-8') as file:
         api_key = file.read().strip()
     client = anthropic.Anthropic(api_key=api_key)
 
@@ -110,7 +110,7 @@ def main():
             filename = f'question_{current_number:03d}.txt'
             output_file = output_dir / filename
             
-            with open(output_file, 'w') as f:
+            with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(solution)
             
             print(f"Generated question {filename} for category: {category[:50]}...")

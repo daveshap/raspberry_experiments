@@ -1,0 +1,14 @@
+A startup has developed a new protocol for sending international conference invitations. The protocol works as follows:
+
+For efficiency, the system continually broadcasts conference declarations using the following steps:
+1. The message M contains {invitation details, instances of contribution requirements}
+2. Each message is encrypted using AES in the following format: E(k, M || chocolate)
+   where 'chocolate' serves as a constant verification string
+3. For convenient distribution, the same key k is used internationally for all broadcasts
+
+Given this protocol, analyze its security properties and identify specific vulnerabilities by:
+a) Explaining how an attacker could exploit the constant verification string
+b) Demonstrating whether message confidentiality is maintained across multiple instances
+c) Proposing the minimum necessary modifications to ensure both message integrity and confidentiality
+
+Use formal security definitions in your analysis and prove your conclusions.

@@ -1,0 +1,21 @@
+In 1944, a chemical plant in Saskatchewan invented a novel process for producing ammonia that had to operate under extreme winter conditions. The process involves three simultaneous equilibrium reactions:
+
+N2 (g) + 3H2 (g) ⇌ 2NH3 (g)     ΔH = -92 kJ/mol
+N2O4 (g) ⇌ 2NO2 (g)             ΔH = +57 kJ/mol
+2NO2 (g) + 2NH3 (g) ⇌ N2 (g) + 2H2O (g) + N2O4 (g)   ΔH = -125 kJ/mol
+
+If the initial partial pressures are:
+P(N2) = 2.0 atm
+P(H2) = 6.0 atm
+P(NO2) = 0.5 atm
+P(N2O4) = 0.3 atm
+P(NH3) = 0.1 atm
+P(H2O) = 0.0 atm
+
+And the temperature is -25°C, explain how the system will shift to reach equilibrium. In your analysis, consider:
+1. The effect of Saskatchewan's cold climate on each equilibrium
+2. The direction each reaction will shift based on Le Chatelier's principle
+3. How the shifts in one reaction affect the others
+4. The final qualitative distribution of products vs reactants
+
+Provide your reasoning for each step.

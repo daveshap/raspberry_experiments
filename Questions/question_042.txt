@@ -1,0 +1,10 @@
+Five employees at a marketing firm are responsible for different operations. Each employee initially managed one campaign type: Social Media, Email, Print, Digital Ads, and TV. Due to vocational restrictions, the following changes were made:
+
+1. The person who initially managed Print campaigns converted to managing Email campaigns
+2. Sarah, who did not handle TV initially, switched positions with the Social Media manager
+3. The person who originally managed Digital Ads corrected their role by taking over Print campaigns
+4. Michael ended up managing TV campaigns, though he didn't start there
+5. Emma, who was neither the original Email nor Digital Ads manager, kept her initial position
+6. James did not start with Email campaigns
+
+Who was initially responsible for each type of campaign?

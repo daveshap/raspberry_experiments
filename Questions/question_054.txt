@@ -1,0 +1,7 @@
+Consider the following logical premises about newspaper columnists:
+1. For all columnists x, if x writes for multiple papers, then x has a dedicated editor.
+2. For all columnists x, if x has a dedicated editor, then x cannot write anonymous articles.
+3. For all columnists x, if x writes investigative pieces, then x must write anonymous articles.
+4. For all columnists x, if x is an award winner, then x writes for multiple papers.
+
+Using predicate logic and natural deduction, prove that no award-winning columnist can write investigative pieces. Express your proof using proper logical notation (∀, →, ¬, etc.) and provide justification for each step.

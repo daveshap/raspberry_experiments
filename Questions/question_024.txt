@@ -1,0 +1,11 @@
+A customer service center handles four types of enquiries: Technical Support, Product Information, Order Confirmation, and Volunteer Coordination. Four employees (Alice, Bob, Carol, and David) need to be assigned to maintain these services while satisfying these conditions:
+
+1. The person handling Technical Support must also be trained in telephony systems
+2. Only Bob and Carol are trained in telephony
+3. Alice must be assigned to a service that requires less technical skill than David's assignment
+4. The person handling Volunteer Coordination must be adjacent (in desk position) to the person handling Order Confirmation
+5. Carol cannot sit next to Bob for personal reasons
+6. Desk positions are numbered 1-4 from left to right
+7. The Product Information desk must be position 2 or 3
+
+Determine the complete arrangement of who handles which service and sits at which desk position.

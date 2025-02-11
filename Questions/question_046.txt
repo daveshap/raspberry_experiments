@@ -1,0 +1,10 @@
+Consider this sequence of transformations:
+techrepublic → penetration → secondary → encounter → intersection → infectious → [next two terms]
+
+Rules:
+1. Each word shares exactly two letters with the next word in the sequence
+2. The shared letters must appear in the same relative order in both words
+3. Each successive word must be shorter than the previous word by exactly one letter
+4. All words must be related to either technology, medicine, or security
+
+Determine the next two words in the sequence that follow all these patterns.

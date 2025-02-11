@@ -1,0 +1,7 @@
+You are an administrator at a northeastern university's research facility. During a routine inspection, you discover that a climate-controlled storage room containing sensitive biological samples has experienced a power failure. The room's dimensions are 5m x 4m x 3m, initially maintained at 4°C. The outside temperature is 22°C, and the power has been out for exactly 2 hours. The walls are made of standard laboratory-grade insulated panels.
+
+Calculate the approximate current temperature in the room and determine if the biological samples (which must be kept below 8°C) are still viable. Show your reasoning and calculations, considering:
+- Heat transfer through walls
+- The thermal mass of the air
+- The insulation properties of standard laboratory walls
+- The starting and ending conditions

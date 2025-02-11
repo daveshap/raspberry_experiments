@@ -1,0 +1,8 @@
+The Environmental Protection Agency in Deutschland has been monitoring groundwater contamination levels across 120 sites, before and after implementing new protection measures. The data shows that before the measures, contamination levels had a mean of 45 ppm with a standard deviation of 12 ppm. After six months of the new measures, a sample of 30 sites showed a mean of 42 ppm with a standard deviation of 11 ppm. The local Democrats are claiming this as a revolution in environmental protection, while cooperative environmental groups are requesting more analysis.
+
+Tasks:
+1. Determine the most appropriate statistical test for this scenario and justify your choice by examining the assumptions needed.
+2. Calculate the test statistic and p-value.
+3. Interpret the results in the context of a 5% significance level.
+4. Explain what this means for the afternoon announcement the EPA needs to make about the effectiveness of their protection measures.
+5. Calculate the effect size and discuss whether the statistical significance (if any) translates to practical significance.

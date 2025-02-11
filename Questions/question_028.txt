@@ -1,0 +1,11 @@
+Three distinguished professionals are planning an adventure abroad. Each requested different accommodations and brought different items:
+
+- The consultant brought a miniature laptop
+- The person who requested the beach villa brought a polyester suit
+- The architect suggested the mountain cabin
+- The doctor didn't bring the leather briefcase
+- The person who requested the city apartment brought the leather briefcase
+- The consultant didn't request the beach villa
+- One person brought a canvas backpack
+
+Who requested which accommodation and brought which item?

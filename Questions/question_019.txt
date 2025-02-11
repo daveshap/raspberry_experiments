@@ -1,0 +1,10 @@
+Design a state machine in pseudocode that processes a string of characters and determines if it follows this pattern: the string must start with exactly two consonants, followed by any number of alternating vowels and consonants (at least one pair), and must end with the same two consonants it started with. For example, "strength-eat-strength" would be valid (if hyphens are ignored).
+
+Your solution should:
+1. Handle any input string
+2. Track the initial consonants
+3. Verify the alternating pattern
+4. Confirm the ending matches the beginning
+5. Return true only if all conditions are met
+
+Explain your approach before writing the pseudocode.

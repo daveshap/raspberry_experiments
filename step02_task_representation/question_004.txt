@@ -1,0 +1,39 @@
+<task_representation>
+<problem_statement>
+Find an 8-letter word that meets five specific criteria in relation to the given context words: represent, pichunter, portfolio, conventions, accommodation. The word must share a prefix with one context word, function as both noun and verb, have verb and noun meanings that parallel other context words, and be exactly 8 letters long.
+</problem_statement>
+
+<constraints>
+1. The target word must be exactly 8 letters long
+2. The word must function grammatically as both a noun and a verb
+3. The word must share a prefix with one of the five context words
+4. The word's verb meaning must be semantically similar to one of the context words
+5. The word's noun meaning must describe a gathering (similar to one of the context words)
+</constraints>
+
+<knowns>
+1. The five context words are:
+   - represent
+   - pichunter
+   - portfolio
+   - conventions
+   - accommodation
+2. One of these words must share a prefix with our target word
+3. One of these words must describe a type of gathering
+4. One of these words must have a similar meaning to our target word when used as a verb
+</knowns>
+
+<unknowns>
+1. The specific 8-letter word that satisfies all conditions
+2. Which context words will match with each criterion
+3. The relevant prefix that will be shared
+</unknowns>
+
+<scope>
+1. Only standard English words are considered
+2. Word meanings must be commonly accepted definitions
+3. Prefix sharing must be based on exact letter matches at the beginning of words
+4. Parts of speech are determined by standard English usage
+5. Word length is counted in letters, not characters
+</scope>
+</task_representation>

@@ -1,0 +1,5 @@
+A pharmaceutical company stores experimental medications in an apartment-converted laboratory. The medication degrades according to first-order kinetics with a half-life of 6 months at room temperature (20°C). The rate of degradation doubles for every 10°C increase in temperature. If the air conditioning fails during summer and the room temperature rises to 40°C:
+
+1. Calculate the new half-life of the medication
+2. If regulations require that medications must be destroyed when 25% of the active ingredient has degraded, how many hours can the medication remain at 40°C before requiring destruction?
+3. Explain what other factors should be considered when determining if the entire batch requires enforcement of destruction objectives.

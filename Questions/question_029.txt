@@ -1,0 +1,21 @@
+A surveillance company uses a special data structure to track employee access to different building zones. The structure consists of a list of entries where each entry is a tuple (employee_id, zone_id, timestamp). Given the following pseudocode implementation of their tracking system, identify and fix all logical errors, and then optimize it to reduce the time complexity from O(n²) to O(n log n):
+
+```pseudocode
+function findUnauthorizedAccess(entries, restricted_zones):
+    suspicious = []
+    for entry in entries:
+        employee = entry[0]
+        zone = entry[1]
+        time = entry[2]
+        
+        if zone in restricted_zones:
+            for prev_entry in entries:
+                if prev_entry[0] == employee:
+                    if prev_entry[2] > time:
+                        suspicious.append(employee)
+                        break
+    
+    return suspicious
+```
+
+The function should return a list of employee IDs who have accessed restricted zones without proper sequential timestamps (indicating potential security breaches). Consider edge cases such as multiple entries by the same employee and duplicate timestamps.

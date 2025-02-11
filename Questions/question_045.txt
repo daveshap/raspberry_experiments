@@ -1,0 +1,7 @@
+Consider these word pairs:
+"immediate : conducted" and "represented : delicious"
+
+Identify the underlying relationship pattern between these pairs, and then complete this analogical sequence:
+"opportunities : ____"
+
+The answer should follow the same transformation pattern as the previous pairs, and your explanation must detail why this pattern holds true across all three pairs.

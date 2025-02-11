@@ -1,0 +1,55 @@
+<task_representation>
+<problem_statement>
+Given five suspects interviewed on consecutive days (Monday through Friday) and a set of logical conditions regarding their residences (house or apartment) and potential entry points (garage door or basement window), we must determine:
+1. Which entry point was used in the break-in
+2. Which suspect (identified by their interview day) is the defendant
+</problem_statement>
+
+<constraints>
+1. Each suspect was interviewed on exactly one day from Monday through Friday
+2. Each suspect must live in either a house or an apartment
+3. The entry point must be either the garage door or basement window
+4. The defendant was interviewed on Friday
+5. The Wednesday interviewee lives in an apartment
+6. The garage door suspect's interview occurred before the house-dwelling suspect's interview
+7. If entry was through basement window, then Tuesday's suspect is innocent
+8. If Monday's suspect lives in a house, then the garage door was used
+</constraints>
+
+<knowns>
+1. There are exactly five suspects
+2. Interview days are Monday through Friday (sequential)
+3. The defendant was interviewed on Friday
+4. Wednesday's suspect lives in an apartment
+5. Two possible entry points: garage door or basement window
+6. Two possible residence types: house or apartment
+7. Written instructions were left at the scene by the defendant
+</knowns>
+
+<unknowns>
+1. The residence type (house/apartment) for all suspects except Wednesday's
+2. The actual entry point used
+3. The residence type of the defendant (Friday's suspect)
+4. The complete sequence of which suspects live in houses vs apartments
+</unknowns>
+
+<scope>
+Included:
+- Logical relationships between interview days, residence types, and entry points
+- Binary conditions (house/apartment, garage/window)
+- Temporal sequence of interviews
+
+Not included:
+- Physical evidence beyond the written instructions
+- Other potential entry points
+- Other suspects beyond the five interviewed
+- Details about the written instructions
+- Time of day for interviews or break-in
+
+Assumptions permitted:
+- All given information is accurate and complete
+- Each suspect must be either guilty or innocent
+- The defendant is among the five suspects interviewed
+- Only one entry point was used
+</scope>
+</task_representation>

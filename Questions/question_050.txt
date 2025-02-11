@@ -1,0 +1,8 @@
+A programmer working from their apartment notices an interesting phenomenon: their computer's cooling fan creates vibrations that cause a small object on their desk to move in a circular pattern. The object makes exactly 3 complete circles in 2 seconds when the fan runs at standard speed. If the fan speed increases by 25%, and assuming the relationship between fan speed and object movement is linear:
+
+1. Calculate the new time for one complete circle
+2. Explain how resonant frequency plays a role in this scenario
+3. Identify three factors that could affect the accuracy of these calculations
+4. If the circular motion suddenly stops, describe the physics principles that would explain why the object might continue moving in a straight line
+
+Support each answer with scientific principles and mathematical calculations where applicable.

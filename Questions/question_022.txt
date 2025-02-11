@@ -1,0 +1,3 @@
+Using the words "resulting delegation submission controversial contained testament portsmouth," create a new sequence by following this pattern: Take the first letter of each word, count the consonants in each word, and multiply these numbers by the position of the word in the list (starting from position 1). Then, arrange these products in ascending order. What are the next two numbers that would logically continue this sequence?
+
+For example: "resulting" starts with 'r' and has 5 consonants, so position 1 × 5 = 5.

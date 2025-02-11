@@ -1,0 +1,42 @@
+<task_representation>
+<problem_statement>
+Design an algorithm that validates a sequence of security codes based on the "haunting" rules. A sequence is valid if and only if the first number can be expressed as the sum of two different numbers that appear later in the sequence. Each number in the sequence can only be used once in forming such a sum. The algorithm must determine whether a given sequence satisfies these conditions.
+</problem_statement>
+
+<constraints>
+1. The input sequence must contain at least 3 numbers (to allow for two subsequent numbers to form a sum)
+2. Each number in the sequence can only be used once to form a sum
+3. Only the first number in the sequence must be haunted
+4. The numbers used to form the sum must appear after the number being haunted
+5. The two numbers used to form the sum must be different (can't use the same number twice)
+6. All numbers in the sequence are assumed to be integers
+</constraints>
+
+<knowns>
+1. The length N of the input sequence
+2. All numbers in the sequence
+3. The position of the number that needs to be haunted (first position)
+4. The mathematical relationship required for haunting (sum of two subsequent numbers)
+5. Example of a valid sequence: [10, 4, 6, 3, 1]
+6. Example of an invalid sequence: [12, 5, 3, 2, 1]
+</knowns>
+
+<unknowns>
+1. Which specific pair of subsequent numbers (if any) sum to the first number
+2. Whether a given sequence is valid or invalid
+3. The range of possible values in the sequence (assumed to be integers but bounds not specified)
+</unknowns>
+
+<scope>
+1. The algorithm only needs to determine validity (true/false output)
+2. The algorithm does not need to:
+   - Find all possible pairs that could haunt the first number
+   - Validate or check any numbers beyond the first one
+   - Modify or rearrange the sequence
+   - Handle empty sequences or sequences with fewer than 3 numbers
+3. Assumptions permitted:
+   - Input will always be a sequence of at least 3 numbers
+   - All numbers in the sequence are integers
+   - No special handling required for negative numbers
+</scope>
+</task_representation>

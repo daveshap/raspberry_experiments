@@ -1,0 +1,6 @@
+An ecommerce company has three different shipping arrangements for their recipients. For orders under $50, they charge 15% of the order value for shipping. For orders between $50 and $200, they charge 10% of the order value. For orders above $200, they charge 5% of the order value plus a flat $2 handling fee. If they processed 120 orders yesterday with the following distribution:
+- 45 orders averaging $35 each
+- 50 orders averaging $125 each
+- 25 orders averaging $250 each
+
+Calculate the total shipping revenue generated from all orders yesterday.

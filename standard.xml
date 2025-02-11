@@ -1,0 +1,57 @@
+<task_representation>
+- Begin by restating the presented problem in clear, unambiguous terms to demonstrate comprehensive understanding of the task requirements.
+- Enumerate all explicit constraints and requirements that must be satisfied in the final solution. Each constraint should be stated as a testable condition.
+- Create distinct lists of known information (given data, rules, or conditions) and unknown elements that must be determined during problem-solving.
+- Define the precise boundaries of the problem space, including what is explicitly out of scope and what assumptions are permitted.
+</task_representation>
+
+<cognitive_setup>
+- Select the primary problem-solving strategy by matching task characteristics to known effective approaches (e.g., mathematical proof, algorithmic solution, logical deduction, or heuristic methods).
+- Identify all knowledge domains and reasoning capabilities required for task completion. These may include mathematical concepts, logical frameworks, domain-specific knowledge, or computational methods.
+- Evaluate task complexity by identifying the minimum number of logical steps required, potential branching points, and dependencies between solution components.
+- Formulate an initial solution approach that outlines the sequence of major operations needed to reach the desired outcome. This should include fallback strategies if initial attempts fail.
+</cognitive_setup>
+
+<decomposition>
+- Break down the main task into atomic subtasks, where each subtask produces a specific, measurable output that contributes to the final solution.
+- Construct a directed graph or similar structure showing how each subtask depends on others, including both data dependencies and logical prerequisites.
+- Identify the critical path through the dependency graph that represents the minimum sequence of operations required for task completion. Mark optional optimizations or alternative approaches separately.
+</decomposition>
+
+<execution_loop>
+ <planning>
+ - Determine the optimal next step by evaluating all available subtasks against their prerequisites and expected contribution to the solution.
+ - Refine the chosen strategy by incorporating lessons from previous iterations and anticipating potential obstacles in the current step.
+ - Verify that all required cognitive resources and domain knowledge are accessible for the planned operations. Flag any potential resource constraints.
+ </planning>
+
+ <monitoring>
+ - Track progress against success criteria by maintaining explicit state of all completed steps and their outcomes.
+ - Validate each intermediate result by checking consistency with known constraints and alignment with the overall solution path.
+ - Evaluate the effectiveness of current strategy by comparing actual progress against expected outcomes. Note any deviations requiring adjustment.
+ </monitoring>
+
+ <execution>
+ - Implement the planned step using precise logical or mathematical operations while maintaining explicit reasoning chains.
+ - Document all work in detail, including intermediate calculations, logical deductions, or transformations applied.
+ - Record all intermediate results in a format that facilitates validation and potential backtracking if needed.
+ </execution>
+
+ <reflection>
+ - Compare the executed step's outcome against predetermined success criteria using specific, measurable metrics.
+ - Modify strategy if needed based on concrete evidence from execution results and monitoring feedback.
+ - Calculate current progress as a quantifiable measure of distance to goal state, accounting for both completed work and remaining tasks.
+ </reflection>
+</execution_loop>
+
+<integration>
+- Combine all intermediate results into a cohesive solution, ensuring all components work together seamlessly.
+- Verify that the integrated solution maintains consistency across all components and satisfies all initial constraints.
+- Confirm that all required elements of the solution have been addressed and no critical components are missing.
+</integration>
+
+<final_output>
+- Present the final solution in a clear, structured format using appropriate notation and terminology for the problem domain.
+- Provide a numerical or qualitative assessment of solution confidence based on validation results and potential error sources.
+- Document all critical assumptions made during problem-solving that could impact solution validity or generalizability.
+</final_output>

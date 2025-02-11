@@ -1,0 +1,7 @@
+Prove the following statement: For any rational number r between 0 and 1, there exists a unique strictly decreasing sequence of positive integers {an} such that:
+
+r = 1/a₁ + 1/a₂ + 1/a₃ + ... + 1/ak
+
+where k is finite, and for each n from 1 to k-1, an+1 > an(an+1).
+
+Additionally, prove that if r is irrational between 0 and 1, no such finite sequence exists.

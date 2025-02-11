@@ -1,0 +1,17 @@
+Three furniture store owners in a small town face a strategic decision during a natural disaster. Each owner receives a daily newsletter about refugee needs and must decide whether to share their inventory information with others. The payoff structure is as follows:
+
+- If all three share information, each gets 10 units of profit
+- If two share and one withholds, sharing owners get 5 units each, withholding owner gets 15 units
+- If one shares and two withhold, sharing owner gets 0 units, withholding owners get 12 units each
+- If no one shares, each gets 6 units
+
+Additionally:
+- Sharing owners must fulfill obligations to supply emergency furniture to survivors
+- Newsletter information becomes public next day regardless of choices
+- Each owner must make this decision for 3 consecutive days
+
+Analyze:
+1. Find all pure strategy Nash equilibria for a single day
+2. Determine if these equilibria change in the 3-day repeated game
+3. Identify the socially optimal strategy and explain why it might differ from the Nash equilibria
+4. Calculate the total community welfare under each possible outcome

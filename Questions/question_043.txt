@@ -1,0 +1,14 @@
+Consider a system where scientists are studying equilibrium states. The system follows these rules:
+- It can be in any of 3 states: A, B, or C
+- Each state transition has an associated energy cost
+- From A: costs 2 units to move to B, 5 units to move to C
+- From B: costs 3 units to move to A, 4 units to move to C
+- From C: costs 1 unit to move to A, 3 units to move to B
+
+Write a pseudocode algorithm that finds the minimum energy cost to go from any arbitrary starting state to any target state, allowing for intermediate states. The algorithm should work for any valid start and end state combination.
+
+Your algorithm should:
+1. Take start_state and end_state as inputs
+2. Return the minimum energy cost
+3. Handle all possible state combinations
+4. Consider all possible intermediate paths

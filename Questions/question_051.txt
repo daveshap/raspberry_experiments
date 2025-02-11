@@ -1,0 +1,8 @@
+Consider a Caribbean cruise line that visits n destinations including the Dominican Republic. The company rates each destination's effectiveness E(i) and brilliance B(i) on a scale from 1 to 10. For any complicated route R visiting all destinations exactly once, define the route's quality Q(R) as:
+
+Q(R) = Σ(i=1 to n) [E(i) × B(i)] × |sin(πi/n)|
+
+Prove that for any n ≥ 4:
+1. The maximum possible value of Q(R) is achieved when the most effective destinations are visited at positions closest to n/2
+2. The minimum possible value of Q(R) occurs when the most effective destinations are visited at either the beginning or end of the route
+3. For any route R, Q(R) ≤ n × max(E) × max(B)

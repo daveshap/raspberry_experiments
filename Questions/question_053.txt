@@ -1,0 +1,8 @@
+A hospital is implementing a new AI-powered diagnostic system for analyzing medical images. The system has shown 95% accuracy in detecting lung nodules, but generates false positives in 15% of cases. Given that the hospital processes 1000 chest X-rays daily, and each false positive requires additional testing costing $500:
+
+1. Calculate the daily financial impact of false positives
+2. Considering that manual radiologist review has a 92% accuracy rate with 5% false positives, analyze the trade-off between accuracy gain and stakeholder impacts
+3. Explain how the biological characteristics of lung nodules (size variation, density, location) might affect the AI system's performance
+4. Propose a hybrid workflow that optimizes both biological accuracy and resource utilization
+
+Provide detailed reasoning for each component of your answer.

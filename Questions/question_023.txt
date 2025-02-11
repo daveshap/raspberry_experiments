@@ -1,0 +1,6 @@
+In a rectangular museum hall dedicated to U.S. Presidents, there are four exhibits arranged in a square pattern. Starting from the entrance at the southwest corner, you walk 20 feet north to reach George Washington's exhibit, then turn east and walk 15 feet to reach Thomas Jefferson's display. From there, you walk directly to Abraham Lincoln's exhibit, which is positioned at the southeast corner of the square. Finally, you walk to Theodore Roosevelt's exhibit, which is directly west of Lincoln's and directly north of Washington's.
+
+Calculate:
+a) The length of the path from Jefferson to Lincoln in feet
+b) The total area of the square formed by the four presidential exhibits in square feet
+c) If you start at the entrance and visit all exhibits exactly once, returning to the entrance, what is the shortest possible path length in feet?

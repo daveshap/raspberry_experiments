@@ -1,0 +1,10 @@
+A manufacturing facility must assign five workers (Alex, Ben, Chen, Diana, and Eva) to five different stations (Assembly, Boxing, Certification, Distribution, and Engineering) for the upcoming shift. The following constitutional rules must be satisfied:
+
+1. Workers with even-numbered years of experience must be assigned to stations starting with letters from A-C
+2. Diana has 4 years of experience, while Eva has 7
+3. Chen must be assigned to a station adjacent in alphabetical order to Eva's station
+4. The worker in Engineering must have at least 6 years of experience
+5. Alex, who has 3 years of experience, cannot work in Boxing or Distribution
+6. Ben's years of experience is equal to the number of consonants in his assigned station's name
+
+Determine the complete assignment of workers to stations and each worker's years of experience.

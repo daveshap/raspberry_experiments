@@ -1,0 +1,8 @@
+A multinational electronics manufacturer needs to design a partitioned power supply circuit for consumers in three different countries. The input voltage varies by country: 120V (Country A), 230V (Country B), and 100V (Country C), all at 50Hz. The circuit must deliver exactly 12V DC output with a maximum power rating of 60W and maintain 85% minimum efficiency to meet international certification standards. Calculate:
+
+1. The minimum transformer current rating needed for each country's version
+2. The power loss in watts for each variant at full load
+3. The maximum permissible resistance in the secondary circuit to maintain the required efficiency
+4. The minimum capacitance needed in the smoothing circuit to keep voltage ripple below 1%
+
+Express all answers in standard SI units and show which country's version poses the most challenging design constraints.

@@ -1,0 +1,7 @@
+A renowned engineer has designed a spectacular skyscraper with a natural frequency of 0.5 Hz. During construction, it was discovered that the building's mass was actually 15% less than the original calculations assumed. If the building's stiffness (k) remains unchanged at 8.2 × 10⁸ N/m, calculate:
+
+1. The new natural frequency of the building
+2. Determine if this change makes the structure more or less stable against typical earthquake frequencies (which range from 0.1 to 10 Hz)
+3. If wind forces at the building's location have a frequency of 0.7 Hz, calculate the amplification factor of forced vibrations using the damping ratio ζ = 0.05
+
+Use the formula ωn = √(k/m) for natural frequency and the amplification factor formula: 1/√[(1-r²)² + (2ζr)²], where r is the frequency ratio.

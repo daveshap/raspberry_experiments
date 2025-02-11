@@ -1,0 +1,7 @@
+A revolutionary new RNA polymerase has been engineered that makes transcription "invisible" to cellular energy sensors. This modified polymerase requires only 15% of the normal ATP consumption per nucleotide addition, but produces mRNA at 40% of the normal rate. If a typical bacterial cell transcribes approximately 2000 genes per minute under normal conditions, and requires 2 ATP molecules per nucleotide addition with an average gene length of 1000 base pairs:
+
+1. Calculate the total energy savings per minute in ATP molecules
+2. Determine if this trade-off would be beneficial for bacterial survival, considering both energy efficiency and protein production needs
+3. Propose a specific scenario where this "invisible transcription" system would provide an evolutionary advantage
+
+Justify each answer with biological reasoning and quantitative analysis.

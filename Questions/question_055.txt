@@ -1,0 +1,23 @@
+Design a municipal festival management system that coordinates 500 annual events across 50 affiliate organizations, integrating with Mastercard payment processing. The system must:
+
+1. Handle peak loads of 100,000 concurrent users during major festivals
+2. Process biometric signatures for crowd control and capacity management
+3. Maintain a nutritional database for food vendor compliance across all events
+4. Support real-time translation in 12 languages
+5. Guarantee 99.9% uptime during festival hours
+
+Specify:
+- System architecture and components
+- Data flow and storage strategy
+- Caching mechanism for high-traffic periods
+- Failure recovery protocols
+- Integration patterns with payment processors and affiliate systems
+- Privacy-preserving mechanisms for biometric data
+- Load balancing strategy across geographic regions
+
+Include concrete numbers for:
+- Database sizing
+- Cache hit ratios
+- Expected latency
+- Recovery time objectives (RTO)
+- Recovery point objectives (RPO)
